@@ -3,8 +3,6 @@
 ## Proposta
 Refatora o código monolitico entregue pelo professor. 
 
-  [-> Código monolitico <-](file:///C:/Users/heloisa_a_ferreira/Downloads/Anexo%2001%20-%20C%C3%B3digo%20fonte%20do%20sistemas%20SistemaOficinaWegCompleto.pdf)
-
 ## Problemas Observados
 Na versão antiga do sistema é possóvel observar uma série de defeitos que ferem os principios SOLID. 
 -  O código se concentra em apenas uma classe responsável por todos os processo de todas as entidades, ou seja, fere o principio de **Single Responsability**.
