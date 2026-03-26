@@ -1,10 +1,12 @@
-package com.senai.oficinaweg.modules.ordemdeservico.repository;
+package com.senai.oficinaweg.modules.ordemdeservico.domain.repository;
 
-import com.senai.oficinaweg.modules.ordemdeservico.model.OrdemDeServico;
+import com.senai.oficinaweg.modules.ordemdeservico.domain.model.OrdemDeServico;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 import java.util.Optional;
 
+@Repository
 public interface OrdemServicoRepository {
 
     OrdemDeServico save(OrdemDeServico OrdemDeServico);

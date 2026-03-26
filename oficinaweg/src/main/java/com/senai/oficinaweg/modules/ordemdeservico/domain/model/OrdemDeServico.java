@@ -1,4 +1,4 @@
-package com.senai.oficinaweg.modules.ordemdeservico.model;
+package com.senai.oficinaweg.modules.ordemdeservico.domain.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -43,4 +43,14 @@ public class OrdemDeServico {
     @OneToMany
     @JoinColumn(name = "Usuarios")
     private List<Integer> alunosEscalados;
+
+    public OrdemDeServico(String equipamento, String defeitoRelatado, StatusOs statusOs, String materiaisUsados, String conclusaoTecnica, int professorResponsavel, List<Integer> alunosEscalados) {
+        this.equipamento = equipamento;
+        this.defeitoRelatado = defeitoRelatado;
+        this.statusOs = statusOs;
+        this.materiaisUsados = materiaisUsados;
+        this.conclusaoTecnica = conclusaoTecnica;
+        this.professorResponsavel = professorResponsavel;
+        this.alunosEscalados = alunosEscalados;
+    }
 }
