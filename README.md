@@ -1,7 +1,7 @@
 # Sistema Oficina WEG
 
 ## Proposta
-Refatora o código monolitico entregue pelo professor. 
+Refatorar o código monolitico entregue pelo professor. 
 
 ## Problemas Observados
 Na versão antiga do sistema é possóvel observar uma série de defeitos que ferem os principios SOLID. 
