@@ -1,4 +1,4 @@
-package com.senai.oficinaweg.modules.problemas.model;
+package com.senai.oficinaweg.modules.problemas.domain.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -28,4 +28,9 @@ public class SinalizacaoProblema {
     @Column
     private String descricao;
 
+    public SinalizacaoProblema(String autor, String equipamentoDefeituoso, String descricao) {
+        this.autor = autor;
+        this.equipamentoDefeituoso = equipamentoDefeituoso;
+        this.descricao = descricao;
+    }
 }

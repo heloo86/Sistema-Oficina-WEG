@@ -1,4 +1,4 @@
-package com.senai.oficinaweg.modules.problemas.repository;
+package com.senai.oficinaweg.modules.problemas.domain.repository;
 
 import com.senai.oficinaweg.modules.problemas.domain.model.SinalizacaoProblema;
 import org.springframework.stereotype.Repository;
