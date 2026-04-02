@@ -1,7 +1,7 @@
-package com.senai.oficinaweg.modules.problemas.domain.service;
+package com.senai.oficinaweg.modules.sinalizacaoproblema.domain.service;
 
-import com.senai.oficinaweg.modules.problemas.domain.model.SinalizacaoProblema;
-import com.senai.oficinaweg.modules.problemas.domain.repository.ProblemaRepository;
+import com.senai.oficinaweg.modules.sinalizacaoproblema.domain.model.SinalizacaoProblema;
+import com.senai.oficinaweg.modules.sinalizacaoproblema.domain.repository.ProblemaRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 

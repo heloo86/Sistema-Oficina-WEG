@@ -1,8 +1,8 @@
-package com.senai.oficinaweg.modules.problemas.aplicattion.mapper;
+package com.senai.oficinaweg.modules.sinalizacaoproblema.aplicattion.mapper;
 
-import com.senai.oficinaweg.modules.problemas.aplicattion.dto.SinalizacaoProblemaRequestDto;
-import com.senai.oficinaweg.modules.problemas.aplicattion.dto.SinalizacaoProblemaResponseDto;
-import com.senai.oficinaweg.modules.problemas.domain.model.SinalizacaoProblema;
+import com.senai.oficinaweg.modules.sinalizacaoproblema.aplicattion.dto.SinalizacaoProblemaRequestDto;
+import com.senai.oficinaweg.modules.sinalizacaoproblema.aplicattion.dto.SinalizacaoProblemaResponseDto;
+import com.senai.oficinaweg.modules.sinalizacaoproblema.domain.model.SinalizacaoProblema;
 import org.springframework.stereotype.Component;
 
 @Component

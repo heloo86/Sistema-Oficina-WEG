@@ -1,4 +1,4 @@
-package com.senai.oficinaweg.modules.problemas.domain.model;
+package com.senai.oficinaweg.modules.sinalizacaoproblema.domain.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

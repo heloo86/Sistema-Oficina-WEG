@@ -1,4 +1,4 @@
-package com.senai.oficinaweg.modules.problemas.aplicattion.dto;
+package com.senai.oficinaweg.modules.sinalizacaoproblema.aplicattion.dto;
 
 public record SinalizacaoProblemaResponseDto(
         int id,

@@ -1,11 +1,11 @@
-package com.senai.oficinaweg.modules.problemas.aplicattion.controller;
+package com.senai.oficinaweg.modules.sinalizacaoproblema.aplicattion.controller;
 
 
-import com.senai.oficinaweg.modules.problemas.aplicattion.dto.SinalizacaoProblemaRequestDto;
-import com.senai.oficinaweg.modules.problemas.aplicattion.dto.SinalizacaoProblemaResponseDto;
-import com.senai.oficinaweg.modules.problemas.aplicattion.mapper.SinalizacaoProblemaMapper;
-import com.senai.oficinaweg.modules.problemas.domain.model.SinalizacaoProblema;
-import com.senai.oficinaweg.modules.problemas.domain.service.ProblemaService;
+import com.senai.oficinaweg.modules.sinalizacaoproblema.aplicattion.dto.SinalizacaoProblemaRequestDto;
+import com.senai.oficinaweg.modules.sinalizacaoproblema.aplicattion.dto.SinalizacaoProblemaResponseDto;
+import com.senai.oficinaweg.modules.sinalizacaoproblema.aplicattion.mapper.SinalizacaoProblemaMapper;
+import com.senai.oficinaweg.modules.sinalizacaoproblema.domain.model.SinalizacaoProblema;
+import com.senai.oficinaweg.modules.sinalizacaoproblema.domain.service.ProblemaService;
 import lombok.AllArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
