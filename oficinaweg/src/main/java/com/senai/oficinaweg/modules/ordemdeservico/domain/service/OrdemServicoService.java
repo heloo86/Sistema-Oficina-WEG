@@ -3,7 +3,7 @@ package com.senai.oficinaweg.modules.ordemdeservico.domain.service;
 import com.senai.oficinaweg.modules.ordemdeservico.domain.exceptions.AcessoNegadoExeption;
 import com.senai.oficinaweg.modules.ordemdeservico.domain.model.OrdemDeServico;
 import com.senai.oficinaweg.modules.ordemdeservico.domain.repository.OrdemServicoRepository;
-import com.senai.oficinaweg.modules.usuario.service.UsuarioService;
+import com.senai.oficinaweg.modules.usuario.domain.service.UsuarioService;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 

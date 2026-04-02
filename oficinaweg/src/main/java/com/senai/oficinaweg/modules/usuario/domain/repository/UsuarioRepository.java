@@ -1,10 +1,11 @@
-package com.senai.oficinaweg.modules.usuario.repository;
+package com.senai.oficinaweg.modules.usuario.domain.repository;
 
-import com.senai.oficinaweg.modules.usuario.model.Usuario;
+import com.senai.oficinaweg.modules.usuario.domain.model.Usuario;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 import java.util.Optional;
-
+@Repository
 public interface UsuarioRepository {
 
     Usuario save(Usuario Usuario);
@@ -14,4 +15,5 @@ public interface UsuarioRepository {
     
     boolean existById(int id);
     boolean isUsuarioProfessor(int id);
+    boolean isUsuarioAluno(int id);
 }

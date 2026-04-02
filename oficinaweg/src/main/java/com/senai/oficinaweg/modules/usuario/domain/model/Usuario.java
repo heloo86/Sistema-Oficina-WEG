@@ -1,4 +1,4 @@
-package com.senai.oficinaweg.modules.usuario.model;
+package com.senai.oficinaweg.modules.usuario.domain.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

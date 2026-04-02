@@ -21,7 +21,7 @@ public class OrdemServicoController {
     private final OrdemServicoMapper mapper;
 
     @PostMapping("/{usuarioId}")
-    public ResponseEntity<OrdemServicoResponseDto> registrarOrdemServico (
+    public ResponseEntity<OrdemServicoResponseDto> abrirOrdemServico (
             @RequestBody OrdemServicoRequestDto request,
             @PathVariable int usuarioId){
         OrdemDeServico ordemDeServico = mapper.toEntity(request);

@@ -1,5 +1,6 @@
-package com.senai.oficinaweg.modules.turma.model;
+package com.senai.oficinaweg.modules.turma.domain.model;
 
+import com.senai.oficinaweg.modules.usuario.domain.model.Usuario;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -14,7 +15,7 @@ import java.util.List;
 @Getter
 @Setter
 @Table
-public class turma {
+public class Turma {
 
     @Column
     @Id
@@ -25,6 +26,6 @@ public class turma {
     private String nome;
 
     @OneToMany
-    @JoinColumn (name = "Usuario")
-    private List<Integer> idAlunos;
+    @JoinColumn (name = "idAlunos")
+    private List<Usuario> alunos;
 }
