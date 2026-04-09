@@ -7,7 +7,7 @@ import java.util.List;
 public record OrdemServicoRequestDto(
         String equipamento,
         String defeitoRelatado,
-        StatusOs statusOs,
+        String statusOs,
         String materiaisUsados,
         String conclusaoTecnica,
         int professorResponsavel,

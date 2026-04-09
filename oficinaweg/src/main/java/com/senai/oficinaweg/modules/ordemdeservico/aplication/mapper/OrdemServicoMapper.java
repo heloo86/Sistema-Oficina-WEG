@@ -3,6 +3,7 @@ package com.senai.oficinaweg.modules.ordemdeservico.aplication.mapper;
 import com.senai.oficinaweg.modules.ordemdeservico.aplication.dto.OrdemServicoRequestDto;
 import com.senai.oficinaweg.modules.ordemdeservico.aplication.dto.OrdemServicoResponseDto;
 import com.senai.oficinaweg.modules.ordemdeservico.domain.model.OrdemDeServico;
+import com.senai.oficinaweg.modules.ordemdeservico.domain.model.StatusOs;
 import com.senai.oficinaweg.modules.usuario.application.UsuarioMapper;
 import com.senai.oficinaweg.modules.usuario.domain.model.Usuario;
 import com.senai.oficinaweg.modules.usuario.domain.service.UsuarioService;
@@ -19,7 +20,7 @@ public class OrdemServicoMapper {
         return new OrdemDeServico(
                 request.equipamento(),
                 request.defeitoRelatado(),
-                request.statusOs(),
+                StatusOs.valueOf(request.statusOs()),
                 request.materiaisUsados(),
                 request.conclusaoTecnica(),
                 usuarioService.findById(request.professorResponsavel()),
@@ -32,7 +33,7 @@ public class OrdemServicoMapper {
                 ordemDeServico.getId(),
                 ordemDeServico.getEquipamento(),
                 ordemDeServico.getDefeitoRelatado(),
-                ordemDeServico.getStatusOs(),
+                ordemDeServico.getStatusOs().toString(),
                 ordemDeServico.getMateriaisUsados(),
                 ordemDeServico.getConclusaoTecnica(),
                 ordemDeServico.getProfessorResponsavel().getId(),

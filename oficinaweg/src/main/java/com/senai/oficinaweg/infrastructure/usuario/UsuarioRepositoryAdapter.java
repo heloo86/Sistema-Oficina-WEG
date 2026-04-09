@@ -28,7 +28,7 @@ public class UsuarioRepositoryAdapter implements UsuarioRepository {
 
     @Override
     public Optional<Usuario> findById(int id) {
-        return findById(id);
+        return jpaRepository.findById(id);
     }
 
     @Override

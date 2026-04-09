@@ -9,7 +9,7 @@ public record OrdemServicoResponseDto(
         int id,
         String equipamento,
         String defeitoRelatado,
-        StatusOs statusOs,
+        String statusOs,
         String materiaisUsados,
         String conclusaoTecnica,
         int professorResponsavel,
