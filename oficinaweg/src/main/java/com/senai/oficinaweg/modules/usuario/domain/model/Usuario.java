@@ -16,7 +16,7 @@ public class Usuario {
     @Column
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private int id;
+    private Integer id;
 
     @Column(nullable = false)
     private String nome;
@@ -24,5 +24,8 @@ public class Usuario {
     @Column
     private TipoUsuario tipoUsuario;
 
-
+    public Usuario(String nome, TipoUsuario tipoUsuario) {
+        this.nome = nome;
+        this.tipoUsuario = tipoUsuario;
+    }
 }
